@@ -21,8 +21,8 @@
 title: 周杨的个人博客
 email: zhouyang123200@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-          点燃一支微弱的烛火<br>
-          如同蚍蜉的我改变不了世界<br>
+          点燃一支微弱的烛火\n
+          如同蚍蜉的我改变不了世界\n
           只是不想被这世界轻易改变
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
