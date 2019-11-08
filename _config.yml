@@ -31,6 +31,8 @@ github_username:  zhouyang123200
 
 # Build settings
 theme: minima
+# markdown 
+markdown: kramdown
 plugins:
   - jekyll-feed
 
