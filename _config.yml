@@ -23,7 +23,7 @@ email: zhouyang123200@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
           点燃一支微弱的烛火  
           如同蚍蜉的我改变不了世界  
-          只是不想被这世界轻易改变
+          只是不想被世界轻易改变
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
