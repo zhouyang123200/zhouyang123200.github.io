@@ -8,7 +8,7 @@ layout: post
 选择空间设置：
 ![截图](/assets/vscode的python开发插件集设定/Selection_002.png)
 2. 设置json
-```
+```json
 {
     "window.zoomLevel": 0.7, // 窗口缩放等级
     "editor.fontSize": 14,
@@ -38,13 +38,13 @@ layout: post
 ```
 3. 在项目的根目录里创建.env文件，添加项目里要用到的环境变量
 在.env中加入PYTHONPATH变量，定义python模块的根路径
-```
+```shell
 PYTHONPATH=./src
 ```
 设定后，pylint就会吧src看作python根模块，从src目录开始检查代码。不会报模块导入错误。
 
 4. 设定launch.json
-```
+```json
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
