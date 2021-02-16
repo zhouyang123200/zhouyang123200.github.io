@@ -10,6 +10,8 @@ layout: post
 2. 设置json
 ```json
 {
+    // User Settings
+
     "window.zoomLevel": 0.7, // 窗口缩放等级
     "editor.fontSize": 14,
     "editor.lineHeight": 15,
@@ -22,6 +24,11 @@ layout: post
     "python.linting.pylintPath": "/home/zhouyang/anaconda3/envs/multimedia-manager/bin/pylint", // 指定pylint
     "python.linting.pylintEnabled": true,  // 需要安装pylint
     "python.linting.enabled": true,  // 需要
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_flask_sqlalchemy",   // 针对flask-sqlalchemy
+        "pylint_flask",              // This package is optional
+    ],
 
     "extensions.ignoreRecommendations": true, // 显示推荐的插件
     "files.encoding": "utf8", // 指定字符编码
@@ -41,7 +48,7 @@ layout: post
 ```shell
 PYTHONPATH=./src
 ```
-设定后，pylint就会吧src看作python根模块，从src目录开始检查代码。不会报模块导入错误。
+设定后，pylint就会把src看作python根模块，从src目录开始检查代码。不会报模块导入错误。
 
 4. 设定launch.json
 ```json
