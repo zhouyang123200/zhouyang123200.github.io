@@ -48,7 +48,7 @@ layout: post
 ```shell
 PYTHONPATH=./src
 ```
-设定后，pylint就会吧src看作python根模块，从src目录开始检查代码。不会报模块导入错误。
+设定后，pylint就会把src看作python根模块，从src目录开始检查代码。不会报模块导入错误。
 
 4. 设定launch.json
 ```json
