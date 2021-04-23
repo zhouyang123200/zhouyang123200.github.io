@@ -41,6 +41,7 @@ layout: post
 
     // "workbench.colorTheme": "One Dark Pro", // 选择颜色主题，需要去安装颜色主题插件
     // "workbench.iconTheme": "vscode-icons",  // 选择图标主题，需要去安装图标主题插件
+    "vim.handleKeys": {"<C-w>": false}
 }
 ```
 3. 在项目的根目录里创建.env文件，添加项目里要用到的环境变量
